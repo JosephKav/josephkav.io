@@ -26,9 +26,8 @@ interests:
 # Education to show in About widget
 education:
   courses:
-  - course: BSc in Computer Science
-    institution: Durham University
-    year: 2020
+  - course: 1st Class BSc (Hons)
+    institution: Computer Science  - Durham University (2020)
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
