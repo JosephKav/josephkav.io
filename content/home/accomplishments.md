@@ -24,6 +24,7 @@ date_format: Jan 2006
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 item:
 - certificate_url: https://rhtapps.redhat.com/certifications/badge/verify/DWT2UIEGA7BJPNDYKTN5IJFQWQAEQU3CUPSQX2KSDXT6RW46LQ34UFHA6EGV4MX6OEQWWNEDUIWXWPUWTPNOZCAXTQD32BJ2PLFPHS3STVWDCMJUD3KGSZYJTPS2YGTCOKOWYMJRGQPNI2LHBGN6LLA2MI======
+  certificate_img: 'rh-ansible.png'
   date_end: "2023-12-07"
   date_start: "2020-12-07"
   description: ""
