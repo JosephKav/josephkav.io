@@ -97,7 +97,7 @@ address = {street = "", city = "London", region = "UK", postcode = "", country =
 
 # Geographic coordinates
 # To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
-coordinates = {latitude = "51.5074", longitude = "0.1278"}
+coordinates = {latitude = "51.5055", longitude = "-0.07535"}
 
 # Directions for visitors to locate you.
 directions = ""
