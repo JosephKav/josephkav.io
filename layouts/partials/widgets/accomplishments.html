@@ -13,8 +13,8 @@
     <div class="card experience course">
       {{- if .certificate_img}}
       <div class="d-flex">
-          <img src="{{ printf "%s/%s" $media_dir .certificate_img | relURL }}" width="400px" height="171px" alt="{{.title | markdownify | emojify}}">
-        <div class="ml-2">
+        <img src="{{ printf "%s/%s" $media_dir .certificate_img | relURL }}" width="400px" height="171px" alt="{{.title | markdownify | emojify}}">
+      <div class="ml-2">
       {{end -}}
       <div class="card-body">
         {{- with .url -}}<a href="{{.}}" target="_blank" rel="noopener">{{- end -}}
