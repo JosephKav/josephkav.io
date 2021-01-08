@@ -47,7 +47,7 @@ experience:
     date_start: '2018-07-01'
     date_end: '2018-09-01'
     description: |2-
-      Cyber Fundamentals program designed to develop strong cyber security related skills andexperience. Included working with a company in the energy industry to develop a phishing solution.
+      Cyber Fundamentals program designed to develop strong cyber security related skills and experience. Included working with a company in the energy industry to develop a phishing solution.
 
       Topics covered included:
       * Internet and Hardware
