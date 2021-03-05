@@ -41,6 +41,10 @@ feature:
   icon_pack: fab
   name: C++
 - description: 
+  icon: aws
+  icon_pack: fab
+  name: aws
+- description: 
   icon: network-wired
   icon_pack: fas
   name: Networking
