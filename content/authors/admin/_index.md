@@ -6,12 +6,12 @@ title: Joseph Kavanagh
 superuser: true
 
 # Role/position/tagline
-role: Managed Systems Engineer
+role: Operations Engineer
 
 # Organizations/Affiliations to show in About widget
 organizations:
-- name: Orb Data
-  url: https://www.orb-data.com/
+- name: Wandera
+  url: https://www.wandera.com/
 
 # Short bio (displayed in user profile at end of posts)
 bio: Has a love for all things DevOps and Automation.

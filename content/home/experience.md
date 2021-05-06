@@ -22,12 +22,19 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
+  - title: Operations Engineer
+    company: Wandera
+    company_url: 'https://www.wandera.com'
+    location: London
+    date_start: '2021-05-02'
+    date_end: ''
+    description: ''
   - title: Managed Systems Engineer
     company: Orb Data
     company_url: 'https://www.orb-data.com'
     location: London
     date_start: '2020-08-05'
-    date_end: ''
+    date_end: '2021-05-01'
     description: |2-
         Tools used:
         * Ansible
