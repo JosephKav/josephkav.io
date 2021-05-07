@@ -25,6 +25,7 @@ experience:
   - title: Operations Engineer
     company: Wandera
     company_url: 'https://www.wandera.com'
+    company_logo: org-Wandera
     location: London
     date_start: '2021-05-02'
     date_end: ''
@@ -32,6 +33,7 @@ experience:
   - title: Managed Systems Engineer
     company: Orb Data
     company_url: 'https://www.orb-data.com'
+    company_logo: org-OrbData
     location: London
     date_start: '2020-08-05'
     date_end: '2021-05-01'
@@ -58,6 +60,7 @@ experience:
   - title: Summer Intern
     company: IBM
     company_url: 'https://www.ibm.com'
+    company_logo: org-IBM
     location: Hursley, Winchester
     date_start: '2018-07-01'
     date_end: '2018-09-01'
@@ -72,4 +75,8 @@ experience:
       * Linux administration
       * Defensive and Offensive Cyber
       * JS/Python/C++/Bash
+
+design:
+  columns: '2'
 ---
+

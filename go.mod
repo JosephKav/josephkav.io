@@ -1,5 +1,8 @@
-module github.com/wowchemy/starter-academic/exampleSite
+module github.com/josephkav/josephkav.io
 
-go 1.15
+go 1.16
 
-require github.com/wowchemy/wowchemy-hugo-modules/wowchemy v0.0.0-20201230224646-25e0b0627f09 // indirect
+require (
+	github.com/wowchemy/wowchemy-hugo-modules/wowchemy v0.0.0-20210501191334-2d9c18ecf0ef // indirect
+	github.com/wowchemy/wowchemy-hugo-modules/wowchemy-cms v0.0.0-20210501191334-2d9c18ecf0ef // indirect
+)
