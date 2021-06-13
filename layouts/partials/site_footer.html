@@ -10,10 +10,10 @@
       {{ end }}
     </p>
     {{ end }}
-  
+
     <p class="powered-by">
       {{ with site.Copyright }}{{ replace . "{year}" now.Year | markdownify}} &middot; {{ end }}
-  
+
       Joseph Kavanagh, &ensp;<a href="https://github.com/JosephKav/josephkav.io" target="_blank" rel="noopener"><i class="fas fa-code-branch"></i></a>
       {{ if not (in (slice "docs" "updates") .Type) }}
       <span class="float-right" aria-hidden="true">

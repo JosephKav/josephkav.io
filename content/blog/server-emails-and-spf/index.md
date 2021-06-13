@@ -36,7 +36,7 @@ I've wanted my server to be able to notify me about any issues it encounters, su
 * c. Would require a short 'app password' since I use 2FA on everything that supports it.
 * d. Encryption of the emails
 
-Mainly because of b (wanting emails to come from one of my own domains), I looked for alternatives a few years ago. Since I was using G-Suite at the time, I looked for ways to email myself and found that I could add aliases to my account and email from those, allowing me to overcome issue b. Until around a year ago, this was the solution I used as my server (and the many services it was running) was pretty much only accessible locally or over VPN. 
+Mainly because of b (wanting emails to come from one of my own domains), I looked for alternatives a few years ago. Since I was using G-Suite at the time, I looked for ways to email myself and found that I could add aliases to my account and email from those, allowing me to overcome issue b. Until around a year ago, this was the solution I used as my server (and the many services it was running) was pretty much only accessible locally or over VPN.
 
 <br />
 <br />
@@ -60,15 +60,15 @@ I implemented the above solution until a month or two ago. I stopped since email
 #!/bin/bash
 set=IPSETNAME
 host=HOSTNAME
-  
+
 me=$(basename "$0")
-  
+
 ip=$(dig +short $host)
-  
+
 if [ -z  "$ip" ];  then
 exit 1
 fi
-  
+
 # make sure the set exists
 /usr/sbin/ipset -exist create $set hash:ip
 

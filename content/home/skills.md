@@ -16,7 +16,7 @@ subtitle:
 # - Add/remove as many `feature` blocks below as you like.
 # - For available icons, see: https://wowchemy.com/docs/page-builder/#icons
 feature:
-- description: 
+- description:
   icon: linux
   icon_pack: fab
   name: Linux
@@ -24,31 +24,31 @@ feature:
   icon: redhat
   icon_pack: fab
   name: Ansible Automation
-- description: 
+- description:
   icon: docker
   icon_pack: fab
   name: Docker
-- description: 
-  icon: python
-  icon_pack: fab
-  name: Python
-- description: 
-  icon: java
-  icon_pack: fab
-  name: Java
-- description: 
+- description:
   icon: cuttlefish
   icon_pack: fab
   name: C++
-- description: 
+- description:
+  icon: java
+  icon_pack: fab
+  name: Java
+- description:
+  icon: python
+  icon_pack: fab
+  name: Python
+- description:
   icon: aws
   icon_pack: fab
   name: aws
-- description: 
+- description:
   icon: network-wired
   icon_pack: fas
   name: Networking
-- description: 
+- description:
   icon: git-alt
   icon_pack: fab
   name: Git
@@ -57,7 +57,7 @@ feature:
 #- icon: ":smile:"
 #  icon_pack: "emoji"
 #  name: "Emojiness"
-#  description: "100%"  
+#  description: "100%"
 
 # Uncomment to use custom SVG icons.
 # Place custom SVG icon in `assets/images/icon-pack/`, creating folders if necessary.
