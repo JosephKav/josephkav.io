@@ -14,14 +14,14 @@ font_size: L
 
 site_type: Person
 local_business_type: ''
-org_name: ''
-description: ''
+org_name: 'HUGOxPARAMSxORG_NAME'
+description: 'HUGOxPARAMSxDESCRIPTION'
 twitter: ''
 
 # Contact (edit or remove options as required)
 
-email: Joseph@kav.io
-phone: '***REMOVED***'
+email: HUGOxPARAMSxEMAIL
+phone: 'HUGOxPARAMSxPHONE'
 address:
   street: ''
   city: London
@@ -61,7 +61,7 @@ highlight_languages:
   - r
 math: false
 diagram: false
-privacy_pack: false
+privacy_pack: true
 edit_page:
   repo_url: ''
   content_dir: ''
@@ -128,7 +128,7 @@ map:
   zoom: 15
 marketing:
   google_analytics: ''
-  google_tag_manager: ''
+  google_tag_manager: 'HUGOxPARAMSxMARKETINGxGOOGLE_TAG_MANAGER'
   google_site_verification: ''
   baidu_site_verification: ''
   baidu_tongji: ''

@@ -34,7 +34,7 @@ item:
   organization_url: https://www.redhat.com
   url: ''
 - title: Network+
-  certificate_url: https://www.youracclaim.com/badges/45bc620f-f4f4-4115-9eec-82a6ae49bee7/public_url
+  certificate_url: https://www.credly.com/badges/45bc620f-f4f4-4115-9eec-82a6ae49bee7/public_url
   certificate_img: cert-CompTIA_Network+
   organization: CompTIA-Network+
   date_start: 2021-02-26
