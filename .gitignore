@@ -1,2 +1,4 @@
 assets/jsconfig.json
 resources/
+go.mod
+go.sum
