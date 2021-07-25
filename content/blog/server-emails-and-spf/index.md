@@ -3,7 +3,7 @@
 
 title: "Server Emails and SPF"
 subtitle: ""
-summary: ""
+summary: "How I handled setting up email notifications along with automating SPF records on CloudFlare"
 authors:
   - admin
 tags: []
