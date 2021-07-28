@@ -14,13 +14,13 @@ font_size: L
 
 site_type: Person
 local_business_type: ''
-org_name: 'HUGOxPARAMSxORG_NAME'
-description: 'HUGOxPARAMSxDESCRIPTION'
+#org_name: 'HUGOxPARAMSxORG_NAME'
+#description: 'HUGOxPARAMSxDESCRIPTION'
 twitter: ''
 
 # Contact (edit or remove options as required)
 
-email: HUGOxPARAMSxEMAIL
+#email: HUGOxPARAMSxEMAIL
 #phone: 'HUGOxPARAMSxPHONE'
 address:
   street: ''
@@ -128,7 +128,7 @@ map:
   zoom: 15
 marketing:
   google_analytics: ''
-  google_tag_manager: 'HUGOxPARAMSxMARKETINGxGOOGLE_TAG_MANAGER'
+  #google_tag_manager: 'HUGOxPARAMSxMARKETINGxGOOGLE_TAG_MANAGER'
   google_site_verification: ''
   baidu_site_verification: ''
   baidu_tongji: ''
