@@ -23,7 +23,7 @@ feature:
 - description:
   icon: redhat
   icon_pack: fab
-  name: Ansible Automation
+  name: Ansible
 - description:
   icon: docker
   icon_pack: fab
@@ -32,6 +32,10 @@ feature:
   icon: cuttlefish
   icon_pack: fab
   name: C++
+- description:
+  icon: code
+  icon_pack: fas
+  name: Go
 - description:
   icon: java
   icon_pack: fab
