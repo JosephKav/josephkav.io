@@ -22,14 +22,24 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
+  - title: DevOps Engineer
+    company: Jamf
+    company_url: 'https://www.jamf.com'
+    company_logo: org-Jamf
+    location: London
+    date_start: '2021-09-20'
+    date_end: ''
+    description: |2-
+      Full-stack/DevOps engineer, coding tools to make things easier for others, with a bit of managing what my team deploys, how we deploy it, updating it and making sure it’s working as expected.
   - title: Operations Engineer
-    company: Wandera
-    company_url: 'https://www.wandera.com'
-    company_logo: org-Wandera
+    company: Jamf
+    company_url: 'https://www.jamf.com'
+    company_logo: org-Jamf
     location: London
     date_start: '2021-05-02'
-    date_end: ''
-    description: ''
+    date_end: '2021-09-17'
+    description: |2-
+      Learning, managing and fixing/improving the tools/servers in use. Involved bits of Kubernetes, Terraform, Puppet and many more...
   - title: Managed Systems Engineer
     company: Orb Data
     company_url: 'https://www.orb-data.com'
@@ -38,10 +48,10 @@ experience:
     date_start: '2020-08-05'
     date_end: '2021-05-01'
     description: |2-
-        Tools used:
-        * Ansible
-        * Terraform
-        * Docker
+      Tools used:
+      * Ansible
+      * Terraform
+      * Docker
   - title: Summer Intern
     company: Flow
     company_url: ''

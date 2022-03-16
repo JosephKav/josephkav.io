@@ -47,7 +47,7 @@ feature:
 - description:
   icon: aws
   icon_pack: fab
-  name: aws
+  name: AWS
 - description:
   icon: network-wired
   icon_pack: fas

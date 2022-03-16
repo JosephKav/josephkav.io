@@ -6,23 +6,23 @@ title: Joseph Kavanagh
 superuser: true
 
 # Role/position/tagline
-role: Operations Engineer
+role: DevOps Engineer
 
 # Organizations/Affiliations to show in About widget
 organizations:
-- name: Wandera
-  url: https://www.wandera.com/
+- name: Jamf
+  url: https://www.jamf.com/
 
 # Short bio (displayed in user profile at end of posts)
-bio: Has a love for all things DevOps and Automation.
+bio: Has a love for all things Software and Automation.
 
 # Interests to show in About widget
 interests:
+- Go
+- Python
 - Ansible
 - Automation
 - DevOps
-- Python
-- Go
 
 # Education to show in About widget
 education:
