@@ -21,7 +21,7 @@ marketing:
     #description: 'HUGOxPARAMSxDESCRIPTION'
     twitter: ''
   analytics:
-    #google_tag_manager: 'HUGOxPARAMSxMARKETINGxGOOGLE_TAG_MANAGER'
+    #google_tag_manager: 'HUGOxPARAMSxMARKETINGxANALYTICSxGOOGLE_TAG_MANAGER???'
 
 # Contact (edit or remove options as required)
 
@@ -56,7 +56,7 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '© {year} Joseph Kavanagh. This work is licensed under {license}'
     license:
       enable: true
       allow_derivatives: false

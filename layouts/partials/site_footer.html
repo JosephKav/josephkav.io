@@ -1,28 +1,35 @@
 <footer class="site-footer">
-    {{ if or (site.GetPage "terms.md") (site.GetPage "privacy.md") }}
-    <p class="powered-by">
-      {{ with site.GetPage "privacy.md" }}
-        {{ printf "<a href=\"%s\">%s</a>" .RelPermalink .Title | safeHTML }}
+
+  {{ partial "hooks/footer" . }}
+
+  {{ if .IsTranslated | and site.Params.footer.show_translations }}
+    <div class="powered-by d-flex flex-wrap pb-2 justify-content-center">
+      <div class="p-2 font-weight-bold"><i class="fas fa-globe pr-1" aria-hidden="true"></i>{{ i18n "languages" }}:</div>
+      <div class="p-2">{{ index site.Data.i18n.languages .Lang }}</div>
+      {{ range .Translations }}
+        <div class="p-2"><a href="{{ .Permalink }}">{{ index site.Data.i18n.languages .Lang }}</a></div>
       {{ end }}
-      {{ with site.GetPage "terms.md" }}
-        {{ if site.GetPage "privacy.md" }} &middot; {{ end }}
-        {{ printf "<a href=\"%s\">%s</a>" .RelPermalink .Title | safeHTML }}
-      {{ end }}
-    </p>
+    </div>
+  {{ end }}
+
+  {{ if or (site.GetPage "/terms.md") (site.GetPage "/privacy.md") }}
+  <p class="powered-by">
+    {{ with site.GetPage "/privacy.md" }}
+      {{ printf "<a href=\"%s\">%s</a>" .RelPermalink .Title | safeHTML }}
     {{ end }}
+    {{ with site.GetPage "/terms.md" }}
+      {{ if site.GetPage "/privacy.md" }} &middot; {{ end }}
+      {{ printf "<a href=\"%s\">%s</a>" .RelPermalink .Title | safeHTML }}
+    {{ end }}
+  </p>
+  {{ end }}
 
-    <p class="powered-by">
-      {{ with site.Copyright }}{{ replace . "{year}" now.Year | markdownify}} &middot; {{ end }}
+  {{ with site.Params.footer.text }}
+  <p class="powered-by">
+    {{ . | markdownify | emojify }}
+  </p>
+  {{ end }}
 
-      Joseph Kavanagh, &ensp;<a href="https://github.com/JosephKav/josephkav.io" target="_blank" rel="noopener"><i class="fas fa-code-branch"></i></a>
-      {{ if not (in (slice "docs" "updates") .Type) }}
-      <span class="float-right" aria-hidden="true">
-        <a href="#" class="back-to-top">
-          <span class="button_icon">
-            <i class="fas fa-chevron-up fa-2x"></i>
-          </span>
-        </a>
-      </span>
-      {{ end }}
-    </p>
-  </footer>
+  {{/* Display copyright license. */}}
+  {{ partial "site_footer_license" . }}
+</footer>
