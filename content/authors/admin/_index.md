@@ -18,11 +18,11 @@ bio: Has a love for all things Software and Automation.
 
 # Interests to show in About widget
 interests:
-- Go
 - Python
-- Ansible
+- Go
+- Java
+- C++
 - Automation
-- DevOps
 
 # Education to show in About widget
 education:
@@ -59,6 +59,6 @@ email: ""
 highlight_name: false
 ---
 
-Joseph Kavanagh is a recent (2020) Computer Science graduate with experience in, and a desire for, automation. A Red Hat Certified Specialist in Ansible Automation. Experience using Ansible, Docker and Terraform in the workplace to deploy services quickly, efficiently and reliably. Enjoys working collaboratively - each person may interpret a problem differently and so approach it in a different way, aiding in the quality of the solution produced.
+Joseph Kavanagh is a recent (2020) Computer Science graduate with experience in, and a desire for, automation. A Red Hat Certified Specialist in Ansible Automation who loves the problem-solving aspects of coding and is always thinking of ways to better the solution. Enjoys working collaboratively - each person may interpret a problem differently and so approach it in a different way, aiding in the quality of the solution produced.
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "media/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.

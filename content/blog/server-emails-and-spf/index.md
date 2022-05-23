@@ -26,7 +26,8 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects: []
+projects:
+  - cloudflare-dns-update-google-spf
 ---
 
 I've wanted my server to be able to notify me about any issues it encounters, such as high temps or failed drives pretty much as soon as I started tinkering with servers sometime in 2013 (I've since setup MatterMost for apps that support slack-style notifications, but not all do). For a few years I took the easy way out and just created a separate gmail account for my single server and set that server up with those gmail credentials, but, I'm not a fan of that solution since it:

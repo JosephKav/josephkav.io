@@ -30,7 +30,9 @@ experience:
     date_start: '2021-09-20'
     date_end: ''
     description: |2-
-      Full-stack/DevOps engineer, coding tools to make things easier for others, with a bit of managing what my team deploys, how we deploy it, updating it and making sure it’s working as expected.
+      DevOps engineer, coding tools to make tasks easier for others, with a bit of managing what my team deploys, how we deploy it, updating it and making sure that it’s working as expected. e.g. developed a tool in Python to generate reports with data from various DB's for our Customers and setup scaling of these Python jobs with Celery workers.
+
+      ~90% Coding, ~10% Ops.
   - title: Operations Engineer
     company: Jamf
     company_url: 'https://www.jamf.com'
@@ -39,7 +41,7 @@ experience:
     date_start: '2021-05-02'
     date_end: '2021-09-17'
     description: |2-
-      Learning, managing and fixing/improving the tools/servers in use. Involved bits of Kubernetes, Terraform, Puppet and many more...
+      Learning, managing and fixing/improving the tools/servers in use. Involved bits of Kubernetes, Terraform, Puppet and much more...
   - title: Managed Systems Engineer
     company: Orb Data
     company_url: 'https://www.orb-data.com'
@@ -89,4 +91,3 @@ experience:
 design:
   columns: '2'
 ---
-

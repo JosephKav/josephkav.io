@@ -17,9 +17,32 @@ subtitle:
 # - For available icons, see: https://wowchemy.com/docs/page-builder/#icons
 feature:
 - description:
+  icon: python
+  icon_pack: fab
+  name: Python
+- description:
+  icon: code
+  icon_pack: fas
+  name: Go
+- description:
+  icon: java
+  icon_pack: fab
+  name: Java
+- icon: cuttlefish
+  icon_pack: fab
+  name: C++
+- description:
+  icon: network-wired
+  icon_pack: fas
+  name: Networking
+- description:
   icon: linux
   icon_pack: fab
   name: Linux
+- description:
+  icon: git-alt
+  icon_pack: fab
+  name: Git
 - description:
   icon: redhat
   icon_pack: fab
@@ -29,33 +52,10 @@ feature:
   icon_pack: fab
   name: Docker
 - description:
-  icon: cuttlefish
-  icon_pack: fab
-  name: C++
-- description:
-  icon: code
-  icon_pack: fas
-  name: Go
-- description:
-  icon: java
-  icon_pack: fab
-  name: Java
-- description:
-  icon: python
-  icon_pack: fab
-  name: Python
 - description:
   icon: aws
   icon_pack: fab
   name: AWS
-- description:
-  icon: network-wired
-  icon_pack: fas
-  name: Networking
-- description:
-  icon: git-alt
-  icon_pack: fab
-  name: Git
 
 # Uncomment to use emoji icons.
 #- icon: ":smile:"
