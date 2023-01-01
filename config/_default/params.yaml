@@ -22,6 +22,16 @@ marketing:
     twitter: ''
   analytics:
     #google_tag_manager: 'HUGOxPARAMSxMARKETINGxANALYTICSxGOOGLE_TAG_MANAGER???'
+############################
+## PLAUSIBLE
+############################
+plausible:
+  enable: true
+  proxy_netlify: true
+  outbound_link: true
+  file_downloads: true
+  debug: false
+  gitstar: false
 
 # Contact (edit or remove options as required)
 
@@ -74,6 +84,8 @@ locale:
 
 features:
   syntax_highlighter:
+    theme_light: github-light
+    theme_dark: dracula
     enable: true
     extra_languages:
       - r
@@ -83,7 +95,7 @@ features:
   diagram:
     enable: false
   privacy_pack:
-    enable: true
+    enable: false
   repository:
     url: 'https://github.com/josephKav/josephkav.io'
     content_dir: content

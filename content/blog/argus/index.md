@@ -1,6 +1,5 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
-
 title: "Argus"
 subtitle: ""
 summary: "A lightweight monitor of software releases that I built in Go/React"
