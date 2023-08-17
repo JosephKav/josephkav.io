@@ -22,7 +22,7 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: DevOps Engineer
+  - title: Software Engineer
     company: Jamf
     company_url: 'https://www.jamf.com'
     company_logo: org-Jamf
@@ -30,9 +30,7 @@ experience:
     date_start: '2021-09-20'
     date_end: ''
     description: |2-
-      DevOps engineer, coding tools to make tasks easier for others, with a bit of managing what my team deploys, how we deploy it, updating it and making sure that it’s working as expected. e.g. developed a tool in Python to generate reports with data from various DB's for our Customers and setup scaling of these Python jobs with Celery workers.
-
-      ~90% Coding, ~10% Ops.
+      Coding tools to make tasks easier for others, with a bit of managing what my team deploys, how we deploy it, updating it and making sure that it’s working as expected. e.g. developed a tool in Python to generate reports with data from various DB's for our Customers and setup scaling of these Python jobs with Celery workers.
   - title: Operations Engineer
     company: Jamf
     company_url: 'https://www.jamf.com'
