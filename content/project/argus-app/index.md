@@ -7,3 +7,5 @@ date: "2022-05-03T22:36:00Z"
 # Optional external URL for project (replaces project detail page).
 external_link: https://github.com/release-argus/Argus
 ---
+
+Monitor and be alerted of new software releases ([demo](https://release-argus.io/demo)) project
