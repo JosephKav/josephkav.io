@@ -109,7 +109,7 @@ social:
 # and uncomment the lines below.
 - icon: cv
   icon_pack: ai
-  link: media/resume.pdf
+  link: https://resume.josephkav.io/josephkav/cv
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
@@ -120,4 +120,4 @@ highlight_name: false
 
 Joseph Kavanagh is a Computer Science graduate with experience in, and a desire for, automation. A Red Hat Certified Specialist in Ansible Automation who loves the problem-solving aspects of coding and is always thinking of ways to better the solution. Enjoys working collaboratively - each person may interpret a problem differently and so approach it in a different way, aiding in the quality of the solution produced.
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "media/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "https://resume.josephkav.io/josephkav/cv" "newtab" >}}resumé{{< /staticref >}}.

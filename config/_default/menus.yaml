@@ -23,5 +23,5 @@ main:
     url: '#contact'
     weight: 60
   - name: "CV"
-    url: "media/resume.pdf"
+    url: "https://resume.josephkav.io/josephkav/cv"
     weight: 70
